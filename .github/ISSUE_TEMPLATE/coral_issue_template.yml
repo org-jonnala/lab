@@ -41,7 +41,7 @@ body:
         - Feature Request
         - Documentation Feature Request
         - Documentation Bug
-        - Other
+        - Others
   - type: dropdown
     id: Operating-System
     attributes:
