@@ -38,6 +38,7 @@ body:
         - Build/Install
         - Performance
         - Support
+        - Feature Request
         - Documentation Feature Request
         - Documentation Bug
         - Other
