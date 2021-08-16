@@ -27,7 +27,7 @@ body:
 #       value: "A bug happened!"
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: issue-type
     attributes:
       label: Issue Type
@@ -72,15 +72,15 @@ body:
         - Accelerator Module
         - Enviro Board
         - Coral Camera
-  - type: dropdown
+  - type: checkboxes
     id: External-Hardware
     attributes:
       label: Other Devices
       description: If you don't see your device listed, please provide more details in the "Description" section above.
       multiple: true
       options:
-        - Raspberry Pi 3
-        - Rapsberry Pi 4
+        - label: Raspberry Pi 3
+        - label: Rapsberry Pi 4
   - type: dropdown
     id: version
     attributes:
