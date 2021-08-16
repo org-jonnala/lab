@@ -1,23 +1,10 @@
 name: Coral Issue Template
 description: Use this template to report any issue
-# title: ''
-# labels: [bug, triage]
-# assignees:
-#   - hjonnala
-#   - manoj7410
 body:
   - type: markdown
     attributes:
       value: |
         Thank you for taking the time to report a Coral issue.
-#   - type: input
-#     id: contact
-#     attributes:
-#       label: Contact Details
-#       description: How can we get in touch with you if we need more info?
-#       placeholder: ex. email@example.com
-#     validations:
-#       required: false
   - type: textarea
     id: what-happened
     attributes:
